@@ -1,0 +1,38 @@
+{
+  "name": "dynamicengine-debugger",
+  "main": "./lib/dynamicengine-debugger",
+  "version": "0.0.0",
+  "description": "Dynamic Engine Debugger Plugin for ATOM",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": [
+      "dynamicengine-debugger:toggle",
+      "dynamicengine-debugger:dumpsettings",
+      "dynamicengine-debugger:startdebugger",
+      "dynamicengine-debugger:stopdebugger",
+      "dynamicengine-debugger:openRunConfiguration",
+      "dynamicengine-debugger:toggleEvaluateTool",
+      "dynamicengine-debugger:showConsole"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/github-vipera/dynamicengine-debugger.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "@nsisodiya/eventbus": "^1.1.0",
+    "atom-message-panel": "^1.2.7",
+    "atom-quick-pane": "^1.0.1",
+    "electron-settings": "^2.2.2",
+    "express": "^4.10.2",
+    "lodash": "^4.16.6",
+    "loophole": "^1.1.0",
+    "socket.io": "^1.2.0",
+    "unirest": "^0.5.1",
+    "winston": "^2.2.0"
+  }
+}
