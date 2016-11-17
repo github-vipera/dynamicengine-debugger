@@ -12,7 +12,8 @@
       "dynamicengine-debugger:stopdebugger",
       "dynamicengine-debugger:openRunConfiguration",
       "dynamicengine-debugger:toggleEvaluateTool",
-      "dynamicengine-debugger:showConsole"
+      "dynamicengine-debugger:showConsole",
+      "dynamicengine-debugger:openInXcode"
     ]
   },
   "repository": {

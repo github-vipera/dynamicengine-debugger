@@ -1,6 +1,21 @@
 {
   "context-menu": {
     "atom-text-editor": [
+    ],
+    "atom-workspace": [
+      {
+        "label" : "Dynamic Engine",
+        "submenu" : [
+            {
+              "label": "Run Configuration...",
+              "command": "dynamicengine-debugger:openRunConfiguration"
+            },
+            {
+              "label": "Open in Xcode",
+              "command": "dynamicengine-debugger:openInXcode"
+            }
+        ]
+      }
     ]
   },
   "menu": [
