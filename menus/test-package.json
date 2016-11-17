@@ -8,35 +8,40 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "Dynamic Engine Debugger",
+          "label": "Dynamic Engine",
           "submenu": [
             {
-              "label": "Start debugger",
-              "command": "dynamicengine-debugger:startdebugger"
-            },
-            {
-              "label": "Stop debugger",
-              "command": "dynamicengine-debugger:stopdebugger"
-            },
-            {
-              "label": "Dump settings",
-              "command": "dynamicengine-debugger:dumpsettings"
-            },
-            {
-              "label": "Reload on Device",
-              "command": "dynamicengine-debugger:reloadondevice"
-            },
-            {
-              "label": "Run Configuration...",
-              "command": "dynamicengine-debugger:openRunConfiguration"
-            },
-            {
-              "label": "Show console",
-              "command": "dynamicengine-debugger:showConsole"
-            },
-            {
-              "label": "Toggle Evaluate Tool",
-              "command": "dynamicengine-debugger:toggleEvaluateTool"
+              "label" : "Debugger",
+              "submenu": [
+                  {
+                    "label": "Start debugger",
+                    "command": "dynamicengine-debugger:startdebugger"
+                  },
+                  {
+                    "label": "Stop debugger",
+                    "command": "dynamicengine-debugger:stopdebugger"
+                  },
+                  {
+                    "label": "Dump settings",
+                    "command": "dynamicengine-debugger:dumpsettings"
+                  },
+                  {
+                    "label": "Reload on Device",
+                    "command": "dynamicengine-debugger:reloadondevice"
+                  },
+                  {
+                    "label": "Run Configuration...",
+                    "command": "dynamicengine-debugger:openRunConfiguration"
+                  },
+                  {
+                    "label": "Show console",
+                    "command": "dynamicengine-debugger:showConsole"
+                  },
+                  {
+                    "label": "Toggle Evaluate Tool",
+                    "command": "dynamicengine-debugger:toggleEvaluateTool"
+                  }
+                ]
             }
           ]
         }
