@@ -55,6 +55,10 @@
                   {
                     "label": "Toggle Evaluate Tool",
                     "command": "dynamicengine-debugger:toggleEvaluateTool"
+                  },
+                  {
+                    "label": "App Preview",
+                    "command": "dynamicengine-debugger:openAppPreview"
                   }
                 ]
             }
