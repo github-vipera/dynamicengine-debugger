@@ -1,7 +1,7 @@
 {
   "name": "dynamicengine-debugger",
   "main": "./lib/dynamicengine-debugger",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "description": "Dynamic Engine Debugger Plugin for ATOM",
   "keywords": [],
   "activationCommands": {
