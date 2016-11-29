@@ -6,3 +6,6 @@
 
 # v0.10.6
 - [Feature - Added IOS Simulator start button]
+
+# v0.10.7
+- [Feature - Added Debugger running status indicator in statusbar]
