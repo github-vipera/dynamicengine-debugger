@@ -34,6 +34,7 @@
     "jquery": "^3.1.1",
     "lodash": "^4.16.6",
     "loophole": "^1.1.0",
+    "node-persist": "^2.0.7",
     "require-reload": "^0.2.2",
     "socket.io": "^1.2.0",
     "tree-kill": "^1.1.0",
